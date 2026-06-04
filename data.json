@@ -1,0 +1,668 @@
+[
+    {
+      "acronym": "ACRN",
+      "correct_answer": "Accounting Classification Reference Number",
+      "distractors": ["Allocated Cost Resolution Node", "Agency Contracting Requirement Notice"],
+      "explanation": "It acts as the 'Funding Bucket' for specific line items on a contract."
+    },
+    {
+      "acronym": "ADR",
+      "correct_answer": "Alternative Dispute Resolution",
+      "distractors": ["Agency Directive Requirement", "Advanced Delivery Routing"],
+      "explanation": "A formalized process and custom clause used for handling disputes without litigation."
+    },
+    {
+      "acronym": "ACO",
+      "correct_answer": "Administrative Contracting Officer",
+      "distractors": ["Agency Compliance Official", "Access Control Officer"],
+      "explanation": "The contracting officer responsible for administering the contract after it has been awarded."
+    },
+    {
+      "acronym": "A-E",
+      "correct_answer": "Architect and Engineering",
+      "distractors": ["Acquisition and Execution", "Agency and Enterprise"],
+      "explanation": "A specific type of contracting for professional architectural and engineering services."
+    },
+    {
+      "acronym": "BAA",
+      "correct_answer": "Broad Agency Announcement",
+      "distractors": ["Baseline Acquisition Agreement", "Bureau Allocation Authorization"],
+      "explanation": "An announcement used before an RFP is issued to explore what solutions are available in the market."
+    },
+    {
+      "acronym": "BAFO",
+      "correct_answer": "Best and Final Offer",
+      "distractors": ["Baseline Allocation for Operations", "Bidding and Financial Overview"],
+      "explanation": "A contractor's final, most competitive pricing and technical proposal submitted after negotiations conclude."
+    },
+    {
+      "acronym": "BPA",
+      "correct_answer": "Blanket Purchase Agreement",
+      "distractors": ["Baseline Pricing Authorization", "Base Procurement Allocation"],
+      "explanation": "A simplified contracting vehicle used to fill anticipated repetitive needs for supplies or services."
+    },
+    {
+      "acronym": "BOA",
+      "correct_answer": "Basic Ordering Agreement",
+      "distractors": ["Base Operations Assessment", "Bureau Objective Allocation"],
+      "explanation": "A contracting vehicle containing terms and clauses applying to future contracts between parties."
+    },
+    {
+      "acronym": "B&P",
+      "correct_answer": "Bid and Proposal",
+      "distractors": ["Budget and Planning", "Base and Pricing"],
+      "explanation": "Money spent by a contractor specifically for preparing, submitting, and supporting a proposal cost."
+    },
+    {
+      "acronym": "BOE",
+      "correct_answer": "Basis of Estimate",
+      "distractors": ["Bill of Execution", "Baseline Operational Evaluation"],
+      "explanation": "The documentation detailing the logic and math of how the estimated costs for a proposal were derived."
+    },
+    {
+      "acronym": "CAF",
+      "correct_answer": "Contract Access Fee",
+      "distractors": ["Cost Allocation Factor", "Consolidated Agency Funding"],
+      "explanation": "A percentage fee collected by an agency when the government uses their specific contract vehicle."
+    },
+    {
+      "acronym": "CAGE",
+      "correct_answer": "Commercial and Government Entity",
+      "distractors": ["Contractor Assessment Governance Evaluation", "Consolidated Agency Government Enterprise"],
+      "explanation": "A unique 5-character ID number used to identify specific vendor entities (e.g., a specific Navy Hospital)."
+    },
+    {
+      "acronym": "CAS",
+      "correct_answer": "Cost Accounting Standards",
+      "distractors": ["Contractor Assessment System", "Consolidated Acquisition Strategy"],
+      "explanation": "A separate set of government accounting rules used to determine and combine costs."
+    },
+    {
+      "acronym": "CDRL",
+      "correct_answer": "Contract Data Requirements List",
+      "distractors": ["Contractor Delivery and Reporting Log", "Consolidated Document Review List"],
+      "explanation": "A report delivered under the contract that describes and defines exactly how the deliverable should look."
+    },
+    {
+      "acronym": "CFE",
+      "correct_answer": "Contractor Furnished Equipment",
+      "distractors": ["Cost Financed Execution", "Contractor Facility Expense"],
+      "explanation": "Indicates that the contractor (not the government) is responsible for providing the material or equipment to build."
+    },
+    {
+      "acronym": "CFR",
+      "correct_answer": "Code of Federal Regulations",
+      "distractors": ["Contractor Financial Report", "Consolidated Federal Requirements"],
+      "explanation": "The master ecFR where all rules and clauses live, encompassing more than just what Acquisition.gov shows."
+    },
+    {
+      "acronym": "CUI",
+      "correct_answer": "Controlled Unclassified Information",
+      "distractors": ["Contractor Utilization Index", "Confidential User Information"],
+      "explanation": "Information that requires safeguarding or dissemination controls but is not strictly classified."
+    },
+    {
+      "acronym": "CLIN",
+      "correct_answer": "Contract Line Item Number",
+      "distractors": ["Contractor Logistics Identification Node", "Consolidated List of Inventory Nodes"],
+      "explanation": "A numbering system used to logically identify, price, and track specific deliverables on a contract."
+    },
+    {
+      "acronym": "CMS",
+      "correct_answer": "Contract Management Standard",
+      "distractors": ["Contractor Measurement System", "Cost Management Strategy"],
+      "explanation": "The standardized framework guiding the effective management and lifecycle of contracts."
+    },
+    {
+      "acronym": "CMMC",
+      "correct_answer": "Cybersecurity Maturity Model Certification",
+      "distractors": ["Contractor Material Management Control", "Consolidated Measurement and Monitoring Criteria"],
+      "explanation": "The unified cybersecurity and FedRAMP rules standard for future government acquisitions."
+    },
+    {
+      "acronym": "CPAR",
+      "correct_answer": "Contractor Performance Assessment Report",
+      "distractors": ["Contract Pricing and Review", "Consolidated Procurement Action Request"],
+      "explanation": "The government's official assessment report card on how well you performed on the contract."
+    },
+    {
+      "acronym": "CPSR",
+      "correct_answer": "Contractor Purchasing System Review",
+      "distractors": ["Comprehensive Procurement Strategy Report", "Contractor Performance Security Review"],
+      "explanation": "A system of compliance for buy-side activities evaluating how effectively a contractor spends Government funds."
+    },
+    {
+      "acronym": "PCO",
+      "correct_answer": "Procuring Contracting Officer",
+      "distractors": ["Primary Compliance Official", "Procurement Control Overseer"],
+      "explanation": "The main Contracting Officer (also called KO) who actually signs and initiates the contract."
+    },
+    {
+      "acronym": "COTS",
+      "correct_answer": "Commercial Off-The-Shelf",
+      "distractors": ["Contractor Operated Test System", "Cost Overrun Tracking System"],
+      "explanation": "Products or services that are ready-made and available for sale to the general public."
+    },
+    {
+      "acronym": "CPAF",
+      "correct_answer": "Cost Plus Award Fee",
+      "distractors": ["Contractor Performance Assessment Factor", "Consolidated Pricing and Financials"],
+      "explanation": "A contract type that provides a base fee and an extra subjective award fee based on performance."
+    },
+    {
+      "acronym": "ECP",
+      "correct_answer": "Engineering Change Proposal",
+      "distractors": ["Estimated Cost Projection", "Enterprise Contracting Protocol"],
+      "explanation": "A formal proposal submitted to modify the design or engineering specifications of an existing contract."
+    },
+    {
+      "acronym": "EOQ",
+      "correct_answer": "Economic Order Quantity",
+      "distractors": ["Estimated Operational Quota", "Enterprise Order Qualification"],
+      "explanation": "The ideal order quantity a company should purchase to minimize total inventory costs."
+    },
+    {
+      "acronym": "EPA",
+      "correct_answer": "Economic Price Adjustment",
+      "distractors": ["Estimated Pricing Allocation", "Enterprise Procurement Agreement"],
+      "explanation": "A contract provision that allows for the upward or downward change of the price on the agreement."
+    },
+    {
+      "acronym": "DFAS",
+      "correct_answer": "Defense Finance and Accounting Service",
+      "distractors": ["Department of Federal Acquisition Systems", "Defense Facility Administration Support"],
+      "explanation": "The agency that actually pays you, utilizing form DD250 to process those payments."
+    },
+    {
+      "acronym": "DPAS",
+      "correct_answer": "Defense Priorities and Allocations System",
+      "distractors": ["Defense Procurement Action System", "Department Pricing and Allocation Strategy"],
+      "explanation": "The government contracting system used for prioritizing defense-related contracting work."
+    },
+    {
+      "acronym": "DO",
+      "correct_answer": "Delivery Order",
+      "distractors": ["Directive Objective", "Defense Obligation"],
+      "explanation": "An order for supplies placed against an established contract vehicle."
+    },
+    {
+      "acronym": "DID",
+      "correct_answer": "Data Item Description",
+      "distractors": ["Document Identification Directive", "Delivery Invoice Document"],
+      "explanation": "A standardization document that defines exactly what data is required of a contractor."
+    },
+    {
+      "acronym": "EDI",
+      "correct_answer": "Electronic Data Interchange",
+      "distractors": ["Enterprise Delivery Interface", "Electronic Document Indexing"],
+      "explanation": "The computer-to-computer exchange format often used with systems like WAWF to make electronic payments."
+    },
+    {
+      "acronym": "ELIN",
+      "correct_answer": "Exhibit Line Item Number",
+      "distractors": ["Estimated Logistics Inventory Node", "Enterprise Level Integration Network"],
+      "explanation": "An identifier for items on an exhibit, operating as a sub-level to a CLIN."
+    },
+    {
+      "acronym": "FOB",
+      "correct_answer": "Free on Board",
+      "distractors": ["Freight Operations Base", "Federal Oversight Board"],
+      "explanation": "Designates where the product is accepted (Origin or Destination) and who holds liability during transit."
+    },
+    {
+      "acronym": "FOIA",
+      "correct_answer": "Freedom of Information Act",
+      "distractors": ["Federal Office of Internal Affairs", "Financial Operations and Investment Authority"],
+      "explanation": "The law that makes certain government data and records free to use and accessible to the public."
+    },
+    {
+      "acronym": "FFP",
+      "correct_answer": "Firm-Fixed-Price",
+      "distractors": ["Federal Funding Proposal", "Final Financial Projection"],
+      "explanation": "A contract type where the price is not subject to any adjustment based on the contractor's actual costs."
+    },
+    {
+      "acronym": "FPI",
+      "correct_answer": "Fixed-Price Incentive",
+      "distractors": ["Federal Procurement Index", "Final Performance Indicator"],
+      "explanation": "A contract providing for adjusting profit and establishing a final price based on a target cost formula."
+    },
+    {
+      "acronym": "G&A",
+      "correct_answer": "General and Administrative",
+      "distractors": ["Government and Agency", "Grants and Allocations"],
+      "explanation": "The overhead cost incurred for the general management and administration of the business unit as a whole."
+    },
+    {
+      "acronym": "GWAC",
+      "correct_answer": "Government-Wide Acquisition Contract",
+      "distractors": ["General Working Agency Contract", "Government Wide Allocation Cost"],
+      "explanation": "A multiple-award contract used to procure information technology products across multiple agencies."
+    },
+    {
+      "acronym": "HCA",
+      "correct_answer": "Head of the Contracting Activity",
+      "distractors": ["Highest Contracting Authority", "Human Capital Administration"],
+      "explanation": "The highest contracting official responsible for managing the contracting activity for an entire agency."
+    },
+    {
+      "acronym": "IFB",
+      "correct_answer": "Invitation for Bids",
+      "distractors": ["International Funding Bureau", "Independent Financial Baseline"],
+      "explanation": "The method used for the sealed bidding process of formal contracting."
+    },
+    {
+      "acronym": "IR&D",
+      "correct_answer": "Independent Research and Development",
+      "distractors": ["Internal Review and Deployment", "Initial Requirements and Documentation"],
+      "explanation": "A contractor's R&D costs that are not sponsored by or required in the performance of a government contract."
+    },
+    {
+      "acronym": "LLT",
+      "correct_answer": "Long Lead Time",
+      "distractors": ["Logistics Liability Tracking", "Low Level Termination"],
+      "explanation": "Components of a system for which the times to design and manufacture are the longest."
+    },
+    {
+      "acronym": "MAC",
+      "correct_answer": "Multiple Award Contract",
+      "distractors": ["Minimum Acceptable Cost", "Master Agency Clause"],
+      "explanation": "Contracts made with two or more contractors for the same or similar supplies or services."
+    },
+    {
+      "acronym": "MMAS",
+      "correct_answer": "Material Management and Accounting System",
+      "distractors": ["Master Maintenance and Support", "Minimum Mandatory Acquisition Standard"],
+      "explanation": "The contractor's system for planning, controlling, and accounting for the acquisition and use of material."
+    },
+    {
+      "acronym": "MOA",
+      "correct_answer": "Memorandum of Agreement",
+      "distractors": ["Master Operations Addendum", "Management of Acquisitions"],
+      "explanation": "A cooperative agreement written between parties to cooperatively work together on an agreed upon project."
+    },
+    {
+      "acronym": "OCI",
+      "correct_answer": "Organizational Conflict of Interest",
+      "distractors": ["Office of Contract Investigations", "Operational Cost Index"],
+      "explanation": "Evaluates conflicts based on whose side you are on: working for the Govt, or working with the Govt."
+    },
+    {
+      "acronym": "O2C",
+      "correct_answer": "Order to Cash",
+      "distractors": ["Offer to Close", "Operations to Contracting"],
+      "explanation": "The sell-side business process detailing how a contractor actually sells stuff and receives payment."
+    },
+    {
+      "acronym": "ODC",
+      "correct_answer": "Other Direct Costs",
+      "distractors": ["Official Departmental Communication", "Operational Delivery Contract"],
+      "explanation": "Costs not previously identified as direct material or labor, such as travel costs or inter-company work transfers."
+    },
+    {
+      "acronym": "OFPP",
+      "correct_answer": "Office of Federal Procurement Policy",
+      "distractors": ["Office of Financial Planning and Pricing", "Organization for Federal Purchasing Protocols"],
+      "explanation": "Provides overall direction for government-wide procurement policies, regulations, and procedures."
+    },
+    {
+      "acronym": "ROM",
+      "correct_answer": "Rough Order of Magnitude",
+      "distractors": ["Rate of Modification", "Resource Operations Management"],
+      "explanation": "Not a binding offer, but a high-level planning number of what a project will generally cost."
+    },
+    {
+      "acronym": "RFTOP",
+      "correct_answer": "Request for Task Order Proposal",
+      "distractors": ["Request for Technical Operations Plan", "Requirement for Terms of Procurement"],
+      "explanation": "A solicitation requesting contractors on a multiple-award vehicle to submit a proposal for a specific task."
+    },
+    {
+      "acronym": "SOO",
+      "correct_answer": "Statement of Objectives",
+      "distractors": ["Standard Operating Order", "Scope of Operations"],
+      "explanation": "A short, descriptive document stating what the government wants as the end objective, letting the contractor propose the 'how'."
+    },
+    {
+      "acronym": "POP",
+      "correct_answer": "Period of Performance",
+      "distractors": ["Proof of Pricing", "Project Operations Plan"],
+      "explanation": "The specific time frame during which the contractor is expected to deliver the required goods or services."
+    },
+    {
+      "acronym": "PR",
+      "correct_answer": "Purchase Request",
+      "distractors": ["Procurement Review", "Pricing Requirement"],
+      "explanation": "The internal government document that initiates the procurement process and secures the funding."
+    },
+    {
+      "acronym": "REA",
+      "correct_answer": "Request for Equitable Adjustment",
+      "distractors": ["Requirement for Execution Authorization", "Review of Engineering Alternatives"],
+      "explanation": "A contractor's request to change the contract price or terms due to an unanticipated change or government action."
+    },
+    {
+      "acronym": "TA",
+      "correct_answer": "Teaming Agreement",
+      "distractors": ["Technical Assessment", "Task Authorization"],
+      "explanation": "An arrangement where companies team together to attack a proposal and act as a prime/sub relationship."
+    },
+    {
+      "acronym": "TINA",
+      "correct_answer": "Truth in Negotiations Act",
+      "distractors": ["Total Inventory and Network Analysis", "Technical Infrastructure and Needs Assessment"],
+      "explanation": "A requirement for contractors to provide certified cost or pricing data when negotiating contracts that exceed the threshold."
+    },
+    {
+      "acronym": "TCO",
+      "correct_answer": "Terminating Contracting Officer",
+      "distractors": ["Task Authorization and Control Officer", "Technical Assessment and Compliance Official"],
+      "explanation": "A specialized contracting officer who is specifically authorized to terminate contracts."
+    },
+    {
+      "acronym": "UCF",
+      "correct_answer": "Uniform Contract Format",
+      "distractors": ["Universal Compliance Framework", "Unified Contracting Facility"],
+      "explanation": "A standardized document structure that formats every solicitation section by a specific letter or number."
+    },
+    {
+      "acronym": "UCA",
+      "correct_answer": "Undefinitized Contract Action",
+      "distractors": ["Universal Contractor Agreement", "Unified Cost Allocation"],
+      "explanation": "A contract action where the terms, specifications, or price are not fully agreed upon before work begins."
+    },
+    {
+      "acronym": "CMBOK",
+      "correct_answer": "Contract Management Body of Knowledge",
+      "distractors": ["Contract Maintenance Bureau of Knowledge", "Certified Management Baseline of Knowledge"],
+      "explanation": "The comprehensive conceptual framework and terminology for the contract management profession."
+    },
+    {
+      "acronym": "CPFF",
+      "correct_answer": "Cost Plus Fixed Fee",
+      "distractors": ["Contract Pricing Formulation Factor", "Cost Performance Financial Forecast"],
+      "explanation": "A contract type where the contractor receives reimbursement for allowable costs plus a fixed fee negotiated at inception."
+    },
+    {
+      "acronym": "CPIF",
+      "correct_answer": "Cost Plus Incentive Fee",
+      "distractors": ["Contract Pricing Index Factor", "Cost Performance Internal Forecast"],
+      "explanation": "A contract type that provides for an initially negotiated fee to be adjusted later by a formula based on total allowable costs."
+    },
+    {
+      "acronym": "DoD",
+      "correct_answer": "Department of Defense",
+      "distractors": ["Directorate of Deployment", "Division of Defense"],
+      "explanation": "The executive branch department responsible for providing the military forces needed to deter war and protect the country."
+    },
+    {
+      "acronym": "DFARS",
+      "correct_answer": "Defense Federal Acquisition Regulation Supplement",
+      "distractors": ["Department Financial and Reporting Standards", "Defense Facility Assessment and Review System"],
+      "explanation": "A supplement to the FAR that provides specific acquisition regulations for the Department of Defense."
+    },
+    {
+      "acronym": "DCAA",
+      "correct_answer": "Defense Contract Audit Agency",
+      "distractors": ["Department of Contract Assessment and Analysis", "Defense Compliance and Authorization Agency"],
+      "explanation": "The agency responsible for performing financial and accounting audits for the DoD and other federal entities."
+    },
+    {
+      "acronym": "DCMA",
+      "correct_answer": "Defense Contract Management Agency",
+      "distractors": ["Department of Contract Maintenance and Administration", "Defense Compliance and Management Authority"],
+      "explanation": "The DoD agency that works directly with defense contractors to help ensure that goods and services are delivered on time and within cost."
+    },
+    {
+      "acronym": "FAR",
+      "correct_answer": "Federal Acquisition Regulation",
+      "distractors": ["Federal Agency Requirements", "Formal Agreement Resolution"],
+      "explanation": "The primary set of rules and guidelines governing all executive agency acquisitions in the US federal government."
+    },
+    {
+      "acronym": "FedRAMP",
+      "correct_answer": "Federal Risk and Authorization Management Program",
+      "distractors": ["Federal Resource Allocation and Management Protocol", "Federal Record and Administration Management Program"],
+      "explanation": "A government-wide program providing a standardized approach to security assessment and authorization for cloud products."
+    },
+    {
+      "acronym": "FPAF",
+      "correct_answer": "Fixed-Price Award-Fee",
+      "distractors": ["Federal Procurement Action Form", "Financial Planning and Allocation Framework"],
+      "explanation": "A fixed-price contract that includes an award fee for exceptional performance, though it is relatively uncommon."
+    },
+    {
+      "acronym": "DOE",
+      "correct_answer": "Department of Energy",
+      "distractors": ["Directorate of Operations and Execution", "Department of Engineering"],
+      "explanation": "The executive department responsible for advancing the national, economic, and energy security of the United States."
+    },
+    {
+      "acronym": "USDA",
+      "correct_answer": "United States Department of Agriculture",
+      "distractors": ["United States Department of Administration", "Unified System for Departmental Allocation"],
+      "explanation": "The federal executive department responsible for developing and executing federal laws related to farming, forestry, and food."
+    },
+    {
+      "acronym": "DOC",
+      "correct_answer": "Department of Commerce",
+      "distractors": ["Directorate of Compliance", "Department of Contracting"],
+      "explanation": "The executive department concerned with promoting economic growth, creating jobs, and encouraging sustainable development."
+    },
+    {
+      "acronym": "ED",
+      "correct_answer": "Department of Education",
+      "distractors": ["Enterprise Deployment", "Executive Directive"],
+      "explanation": "The agency of the federal government that establishes policy for, administers, and coordinates most federal assistance to education."
+    },
+    {
+      "acronym": "HHS",
+      "correct_answer": "Department of Health and Human Services",
+      "distractors": ["Homeland Health and Security", "Headquarters of Human Services"],
+      "explanation": "The cabinet-level department with the goal of protecting the health of all Americans and providing essential human services."
+    },
+    {
+      "acronym": "DHS",
+      "correct_answer": "Department of Homeland Security",
+      "distractors": ["Defense and Homeland Strategy", "Department of Health and Security"],
+      "explanation": "The federal executive department responsible for public security, roughly comparable to the interior or home ministries of other countries."
+    },
+    {
+      "acronym": "HUD",
+      "correct_answer": "Department of Housing and Urban Development",
+      "distractors": ["Homeland Utility and Development", "Headquarters for Urban Development"],
+      "explanation": "The executive department responsible for national policy and programs that address America's housing needs and improve communities."
+    },
+    {
+      "acronym": "DOJ",
+      "correct_answer": "Department of Justice",
+      "distractors": ["Directorate of Jurisdiction", "Department of Judgement"],
+      "explanation": "The federal executive department responsible for the enforcement of the law and administration of justice in the United States."
+    },
+    {
+      "acronym": "DOS",
+      "correct_answer": "Department of State",
+      "distractors": ["Directorate of Security", "Department of Strategy"],
+      "explanation": "The federal executive department primarily responsible for making and conducting foreign policy."
+    },
+    {
+      "acronym": "DOI",
+      "correct_answer": "Department of the Interior",
+      "distractors": ["Directorate of Intelligence", "Department of Infrastructure"],
+      "explanation": "The federal executive department responsible for the management and conservation of most federal land and natural resources."
+    },
+    {
+      "acronym": "DOT",
+      "correct_answer": "Department of Transportation",
+      "distractors": ["Directorate of Transit", "Department of Trade"],
+      "explanation": "The federal cabinet department concerned with transportation."
+    },
+    {
+      "acronym": "GSA",
+      "correct_answer": "General Services Administration",
+      "distractors": ["Government Systems Agency", "General Security Administration"],
+      "explanation": "An independent agency that helps manage and support the basic functioning of federal agencies, often acting as the government's landlord."
+    },
+    {
+      "acronym": "GAO",
+      "correct_answer": "Government Accountability Office",
+      "distractors": ["General Administration Office", "Government Audit Organization"],
+      "explanation": "The supreme audit institution of the federal government that provides investigative services for the United States Congress."
+    },
+    {
+      "acronym": "GovCon",
+      "correct_answer": "Government Contracting",
+      "distractors": ["Government Controls", "Government Configuration"],
+      "explanation": "The general industry abbreviation for businesses and processes related to fulfilling contracts for the government."
+    },
+    {
+      "acronym": "GFP",
+      "correct_answer": "Government Furnished Property",
+      "distractors": ["General Federal Procurement", "Government Financial Planning"],
+      "explanation": "Property in the possession of, or directly acquired by, the Government and subsequently furnished to the contractor for performance."
+    },
+    {
+      "acronym": "IDIQ",
+      "correct_answer": "Indefinite Delivery Indefinite Quantity",
+      "distractors": ["Internal Directive for Initial Quotas", "Independent Department of Internal Quality"],
+      "explanation": "A contract type that provides for an indefinite quantity of supplies or services during a fixed period of time."
+    },
+    {
+      "acronym": "MSA",
+      "correct_answer": "Master Sales Agreement",
+      "distractors": ["Mandatory Security Addendum", "Minimum Standard Assessment"],
+      "explanation": "A commercial contracting vehicle establishing the core terms and conditions for future transactions between a buyer and seller."
+    },
+    {
+      "acronym": "MTBF",
+      "correct_answer": "Mean Time Between Failure",
+      "distractors": ["Minimum Tolerable Baseline Frequency", "Maximum Time Before Finalization"],
+      "explanation": "A reliability metric measuring the predicted elapsed time between inherent failures of a mechanical or electronic system."
+    },
+    {
+      "acronym": "MTBR",
+      "correct_answer": "Mean Time Between Repair",
+      "distractors": ["Maximum Tolerance Before Replacement", "Minimum Testing Baseline Requirement"],
+      "explanation": "A metric indicating the average time it takes to repair a failed piece of equipment and return it to normal operation."
+    },
+    {
+      "acronym": "NIST",
+      "correct_answer": "National Institute of Standards and Technology",
+      "distractors": ["National Information Security Team", "Network Infrastructure and Systems Technology"],
+      "explanation": "A physical sciences laboratory and non-regulatory agency that promotes U.S. innovation and industrial competitiveness by advancing standards."
+    },
+    {
+      "acronym": "NAICS",
+      "correct_answer": "North American Industry Classification System",
+      "distractors": ["National Association of Independent Contracting Systems", "Network and Information Control System"],
+      "explanation": "The standard used by Federal statistical agencies in classifying business establishments for the purpose of collecting and analyzing data."
+    },
+    {
+      "acronym": "OCONUS",
+      "correct_answer": "Outside of Continental United States",
+      "distractors": ["Official Command of Naval United Systems", "Overseas Contracting Operations and National Unified Strategy"],
+      "explanation": "Refers to any location outside the 48 contiguous U.S. states and the District of Columbia, including Alaska, Hawaii, and foreign countries."
+    },
+    {
+      "acronym": "OSD",
+      "correct_answer": "Office of the Secretary of Defense",
+      "distractors": ["Operational Security Division", "Office of Strategic Deployment"],
+      "explanation": "The principal staff element of the Secretary of Defense in the exercise of policy development, planning, and resource management."
+    },
+    {
+      "acronym": "PMO",
+      "correct_answer": "Program Management Office",
+      "distractors": ["Procurement Management Organization", "Primary Maintenance Office"],
+      "explanation": "A group or department within a business or agency that defines and maintains standards for project management within the organization."
+    },
+    {
+      "acronym": "RFI",
+      "correct_answer": "Request for Information",
+      "distractors": ["Request for Invitation", "Request for Investing"],
+      "explanation": "A solicitation used to gather market research and industry feedback before a formal solicitation is written."
+    },
+    {
+      "acronym": "RFQ",
+      "correct_answer": "Request for Quotation",
+      "distractors": ["Requirement for Quality", "Request for Qualification"],
+      "explanation": "A solicitation used in simplified acquisition procedures to obtain pricing, delivery, and other info from vendors."
+    },
+    {
+      "acronym": "RFP",
+      "correct_answer": "Request for Proposal",
+      "distractors": ["Request for Pricing", "Requirement for Procurement"],
+      "explanation": "A formal solicitation asking contractors to submit detailed proposals outlining how they will solve a problem and at what cost."
+    },
+    {
+      "acronym": "SAM",
+      "correct_answer": "System for Award Management",
+      "distractors": ["Standard Acquisition Methodology", "Security and Maintenance"],
+      "explanation": "The official U.S. Government system (SAM.gov) that consolidates the capabilities of multiple vendor registration and tracking systems."
+    },
+    {
+      "acronym": "SF",
+      "correct_answer": "Standard Form",
+      "distractors": ["Security Factor", "System Format"],
+      "explanation": "A standardized document prescribed by federal agencies for government-wide use."
+    },
+    {
+      "acronym": "SOW",
+      "correct_answer": "Statement of Work",
+      "distractors": ["Schedule of Wages", "System Operations Workflow"],
+      "explanation": "A document that explicitly details the specific tasks, deliverables, and timelines a contractor must execute."
+    },
+    {
+      "acronym": "SLIN",
+      "correct_answer": "Sub Contract Line Item Number",
+      "distractors": ["Standard Logistics Identification Node", "System Level Integration Number"],
+      "explanation": "An item identifier used to separately track or price a subset of a parent Contract Line Item Number (CLIN)."
+    },
+    {
+      "acronym": "T&M",
+      "correct_answer": "Time and Materials",
+      "distractors": ["Terms and Management", "Testing and Maintenance"],
+      "explanation": "A contract type providing for acquiring supplies or services on the basis of direct labor hours at fixed hourly rates and actual cost of materials."
+    },
+    {
+      "acronym": "TO",
+      "correct_answer": "Task Order",
+      "distractors": ["Technical Objective", "Termination Office"],
+      "explanation": "An order for services placed against an established contract or with Government sources."
+    },
+    {
+      "acronym": "TFD",
+      "correct_answer": "Termination for Default",
+      "distractors": ["Terms for Deployment", "Task Force Directive"],
+      "explanation": "The exercise of the Government's right to completely or partially terminate a contract because of the contractor's actual or anticipated failure to perform."
+    },
+    {
+      "acronym": "TFC",
+      "correct_answer": "Termination for Convenience",
+      "distractors": ["Total Financial Control", "Terms of Federal Contracting"],
+      "explanation": "The exercise of the Government's right to completely or partially terminate a contract when it is in the Government's interest."
+    },
+    {
+      "acronym": "TCOPDA",
+      "correct_answer": "Truthful Cost or Pricing Data Act",
+      "distractors": ["Total Cost of Procurement and Deployment Act", "Terms of Contractual Obligations and Pricing Data Act"],
+      "explanation": "A law requiring contractors to submit certified cost or pricing data to the government when negotiating contracts above a certain threshold."
+    },
+    {
+      "acronym": "USG",
+      "correct_answer": "United States Government",
+      "distractors": ["Unified Security Group", "Universal Systems Guide"],
+      "explanation": "The federal government of the republic of fifty states that constitute the United States."
+    },
+    {
+      "acronym": "WAWF",
+      "correct_answer": "Wide Area Workflow",
+      "distractors": ["Web Administration and Workforce Form", "Windows Authentication and Web Framework"],
+      "explanation": "A secure web-based system for electronic invoicing, receipt, and acceptance for DoD contracts."
+    },
+    {
+      "acronym": "WBS",
+      "correct_answer": "Work Breakdown Structure",
+      "distractors": ["Workforce Baseline Standard", "Workflow and Business Strategy"],
+      "explanation": "A hierarchical decomposition of the total scope of work to be carried out by the project team to accomplish the project objectives."
+    }
+  ]
