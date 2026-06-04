@@ -145,7 +145,7 @@ else:
         st.info(current_card['explanation']) 
 
         # Advance Button
-        if st.button("Next Acronym ➡️", type="primary", use_container_width=True):
+        if st.button("Next ➡️", type="primary", use_container_width=True):
             st.session_state.current_idx += 1
             st.session_state.answered = False
             st.session_state.selected_option = None
