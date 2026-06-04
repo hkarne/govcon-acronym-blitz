@@ -39,7 +39,8 @@ def load_data():
 def load_leaderboard():
     try:
         conn = st.connection("gsheets", type=GSheetsConnection)
-        df = conn.read(worksheet="Sheet1", usecols=[0, 1, 2, 3])
+        # ttl=0 forces Streamlit to fetch fresh data every time instead of using memory
+        df = conn.read(worksheet="Sheet1", usecols=[0, 1, 2, 3], ttl=0)
         df = df.dropna(how="all") # Clean up empty rows
         return df.to_dict('records')
     except Exception as e:
@@ -48,7 +49,8 @@ def load_leaderboard():
 
 def save_to_leaderboard(name, score, strikes):
     conn = st.connection("gsheets", type=GSheetsConnection)
-    df = conn.read(worksheet="Sheet1", usecols=[0, 1, 2, 3])
+    # ttl=0 here ensures we are appending to the most up-to-date list
+    df = conn.read(worksheet="Sheet1", usecols=[0, 1, 2, 3], ttl=0)
     df = df.dropna(how="all")
     
     # Create the new entry
