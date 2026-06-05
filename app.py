@@ -49,23 +49,26 @@ def load_leaderboard():
 
 def save_to_leaderboard(name, score, strikes):
     conn = st.connection("gsheets", type=GSheetsConnection)
-    # ttl=0 here ensures we are appending to the most up-to-date list
     df = conn.read(worksheet="Sheet1", usecols=[0, 1, 2, 3], ttl=0)
     df = df.dropna(how="all")
     
-    # Create the new entry
+    # 1. Clean the name: Make it uppercase and remove accidental spaces
+    clean_name = name.strip().upper()
+    
     new_data = pd.DataFrame([{
-        "Name": name.upper(), 
+        "Name": clean_name, 
         "Score": score, 
         "Strikes": strikes,
         "Date": datetime.now().strftime("%Y-%m-%d")
     }])
     
-    # Combine old data with new data and sort it
     updated_df = pd.concat([df, new_data], ignore_index=True)
-    updated_df = updated_df.sort_values(by=['Score', 'Strikes'], ascending=[False, True])
     
-    # Push back to Google Sheets
+    # 2. Sort the data so the absolute BEST runs are at the very top
+    updated_df = updated_df.sort_values(by=['Score', 'Strikes'], ascending=[False, True])
+    updated_df = updated_df.drop_duplicates(subset=['Name'], keep='first')
+    
+    # Push the clean, deduplicated list back to Google Sheets
     conn.update(worksheet="Sheet1", data=updated_df)
 # ---------------------------------------
 
