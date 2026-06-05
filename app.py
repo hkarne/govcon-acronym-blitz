@@ -175,10 +175,11 @@ with tab1:
             st.markdown(f"<h1 style='text-align: center; color: #1E3A8A;'>{current_card['acronym']}</h1>", unsafe_allow_html=True)
             st.write("What does this acronym stand for?")
 
-            # Handle Answer Buttons
-            for option in st.session_state.shuffled_options:
-                if not st.session_state.answered:
-                    # Clickable active options
+            # Handle Answer Buttons & Context View
+            if not st.session_state.answered:
+                st.write("What does this acronym stand for?")
+                # Only show buttons if a choice hasn't been made
+                for option in st.session_state.shuffled_options:
                     if st.button(option, use_container_width=True):
                         st.session_state.selected_option = option
                         st.session_state.answered = True
@@ -187,22 +188,12 @@ with tab1:
                         else:
                             st.session_state.strikes += 1
                         st.rerun()
-                else:
-                    # Static colored feedback buttons after click
-                    if option == current_card["correct_answer"]:
-                        st.button(f"✅ {option}", disabled=True, use_container_width=True)
-                    elif option == st.session_state.selected_option and option != current_card["correct_answer"]:
-                        st.button(f"❌ {option}", disabled=True, use_container_width=True)
-                    else:
-                        st.button(option, disabled=True, use_container_width=True)
-
-            # 5. Pause-and-Learn Context Section
-            if st.session_state.answered:
-                st.write("---")
+            else:
+                # 5. Pause-and-Learn Context Section (Replaces the buttons)
                 if st.session_state.selected_option == current_card["correct_answer"]:
-                    st.success("**Correct**")
+                    st.success(f"**Correct!** {current_card['correct_answer']}")
                 else:
-                    st.error(f"**Incorrect**\n\n {current_card['correct_answer']} ")
+                    st.error(f"**Incorrect**\n\n( {current_card['correct_answer']} )")
                 
                 # Displays just the one-line explanation with no extra labels
                 st.info(current_card['explanation']) 
