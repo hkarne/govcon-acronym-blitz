@@ -180,7 +180,6 @@ with tab1:
 
             # Handle Answer Buttons & Context View
             if not st.session_state.answered:
-                st.write("What does this acronym stand for?")
                 # Only show buttons if a choice hasn't been made
                 for option in st.session_state.shuffled_options:
                     if st.button(option, use_container_width=True):
@@ -196,7 +195,7 @@ with tab1:
                 if st.session_state.selected_option == current_card["correct_answer"]:
                     st.success(f"**Correct!** {current_card['correct_answer']}")
                 else:
-                    st.error(f"**Incorrect**\n\n( {current_card['correct_answer']} )")
+                    st.error(f"**Incorrect**\n\n {current_card['correct_answer']} ")
                 
                 # Displays just the one-line explanation with no extra labels
                 st.info(current_card['explanation']) 
