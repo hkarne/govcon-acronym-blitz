@@ -29,14 +29,17 @@ st.markdown("""
             font-size: 14px !important; 
         }
 
-        /* 3. Squish the alert boxes (st.info, st.error, st.success) */
+        /* 3. Squish and perfectly CENTER the alert boxes */
         [data-testid="stAlert"] {
             padding: 0.5rem !important;
             min-height: auto !important;
+            display: flex !important;
+            justify-content: center !important;
         }
         [data-testid="stAlert"] p {
             font-size: 14px !important;
             margin-bottom: 0px !important;
+            text-align: center !important;
         }
 
         /* 4. Shrink the massive acronym text slightly */
@@ -225,7 +228,7 @@ with tab1:
 
             # Display Prompt
             st.markdown(f"<h1 style='text-align: center; color: #1E3A8A;'>{current_card['acronym']}</h1>", unsafe_allow_html=True)
-            st.write("What does this acronym stand for?")
+            st.markdown("<p style='text-align: center; font-size: 16px; margin-bottom: 15px;'>What does this acronym stand for?</p>", unsafe_allow_html=True)
 
             # Handle Answer Buttons & Context View
             if not st.session_state.answered:
