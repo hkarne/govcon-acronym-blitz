@@ -8,6 +8,55 @@ from streamlit_gsheets import GSheetsConnection
 
 # Set page configuration for mobile and desktop layout
 st.set_page_config(page_title="GovCon Acronym Blitz", page_icon="🎓", layout="centered")
+# Set page configuration for mobile and desktop layout
+st.set_page_config(page_title="GovCon Acronym Blitz", page_icon="🎓", layout="centered")
+
+# --- CUSTOM CSS TO MAKE MOBILE ULTRA-COMPACT ---
+st.markdown("""
+    <style>
+        /* 1. Remove huge padding at the very top of the app */
+        .block-container {
+            padding-top: 2rem !important;
+            padding-bottom: 1rem !important;
+        }
+        
+        /* 2. Make buttons shorter and text slightly smaller */
+        button {
+            min-height: 2.5rem !important;
+            padding: 0px !important;
+        }
+        button p {
+            font-size: 14px !important; 
+        }
+
+        /* 3. Squish the alert boxes (st.info, st.error, st.success) */
+        [data-testid="stAlert"] {
+            padding: 0.5rem !important;
+            min-height: auto !important;
+        }
+        [data-testid="stAlert"] p {
+            font-size: 14px !important;
+            margin-bottom: 0px !important;
+        }
+
+        /* 4. Shrink the massive acronym text slightly */
+        h1 {
+            font-size: 2.2rem !important;
+            padding-bottom: 0px !important;
+            margin-bottom: 0px !important;
+        }
+        
+        /* 5. Tighten up regular text and dividers */
+        p {
+            margin-bottom: 0.2rem !important;
+        }
+        hr {
+            margin-top: 0.5rem !important;
+            margin-bottom: 0.5rem !important;
+        }
+    </style>
+""", unsafe_allow_html=True)
+# -----------------------------------------------
 
 DATA_FILE = Path(__file__).resolve().parent / "data.json"
 REQUIRED_CARD_KEYS = ("acronym", "correct_answer", "distractors", "explanation")
